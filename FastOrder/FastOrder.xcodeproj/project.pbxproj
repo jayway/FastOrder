@@ -45,6 +45,7 @@
 		B471FC252565443C0097D504 /* FastOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471FC292565443C0097D504 /* FastOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderUITests.swift; sourceTree = "<group>"; };
 		B471FC2B2565443C0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471FC3D256544FE0097D504 /* FastOrder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastOrder.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		B471FC0B2565443B0097D504 /* FastOrder */ = {
 			isa = PBXGroup;
 			children = (
+				B471FC3D256544FE0097D504 /* FastOrder.entitlements */,
 				B471FC0C2565443B0097D504 /* FastOrderApp.swift */,
 				B471FC0E2565443B0097D504 /* ContentView.swift */,
 				B471FC102565443B0097D504 /* Assets.xcassets */,
@@ -417,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastOrder/FastOrder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FastOrder/Preview Content\"";
 				DEVELOPMENT_TEAM = M7S8264BY5;
@@ -439,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastOrder/FastOrder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FastOrder/Preview Content\"";
 				DEVELOPMENT_TEAM = M7S8264BY5;
