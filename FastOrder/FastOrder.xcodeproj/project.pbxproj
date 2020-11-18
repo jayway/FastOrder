@@ -13,6 +13,11 @@
 		B471FC142565443B0097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC132565443B0097D504 /* Preview Assets.xcassets */; };
 		B471FC1F2565443C0097D504 /* FastOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC1E2565443C0097D504 /* FastOrderTests.swift */; };
 		B471FC2A2565443C0097D504 /* FastOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC292565443C0097D504 /* FastOrderUITests.swift */; };
+		B471FC88256553550097D504 /* FastOrderClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC87256553550097D504 /* FastOrderClipApp.swift */; };
+		B471FC8A256553550097D504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC89256553550097D504 /* ContentView.swift */; };
+		B471FC8C256553580097D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8B256553580097D504 /* Assets.xcassets */; };
+		B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8E256553580097D504 /* Preview Assets.xcassets */; };
+		B471FC94256553580097D504 /* FastOrderClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B471FC85256553550097D504 /* FastOrderClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +35,28 @@
 			remoteGlobalIDString = B471FC082565443B0097D504;
 			remoteInfo = FastOrder;
 		};
+		B471FC92256553580097D504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B471FC012565443B0097D504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B471FC84256553550097D504;
+			remoteInfo = FastOrderClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B471FC6E2565528D0097D504 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				B471FC94256553580097D504 /* FastOrderClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B471FC092565443B0097D504 /* FastOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +72,23 @@
 		B471FC292565443C0097D504 /* FastOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderUITests.swift; sourceTree = "<group>"; };
 		B471FC2B2565443C0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B471FC3D256544FE0097D504 /* FastOrder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastOrder.entitlements; sourceTree = "<group>"; };
+		B471FC472565528A0097D504 /* FastOrderClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipApp.swift; sourceTree = "<group>"; };
+		B471FC492565528A0097D504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B471FC4B2565528C0097D504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B471FC4E2565528C0097D504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B471FC502565528C0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471FC512565528C0097D504 /* FastOrderClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastOrderClip.entitlements; sourceTree = "<group>"; };
+		B471FC5A2565528D0097D504 /* FastOrderClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipTests.swift; sourceTree = "<group>"; };
+		B471FC5C2565528D0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471FC652565528D0097D504 /* FastOrderClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipUITests.swift; sourceTree = "<group>"; };
+		B471FC672565528D0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471FC85256553550097D504 /* FastOrderClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastOrderClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B471FC87256553550097D504 /* FastOrderClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipApp.swift; sourceTree = "<group>"; };
+		B471FC89256553550097D504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B471FC8B256553580097D504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B471FC8E256553580097D504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B471FC90256553580097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471FC91256553580097D504 /* FastOrderClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastOrderClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +113,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B471FC82256553550097D504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +129,10 @@
 				B471FC0B2565443B0097D504 /* FastOrder */,
 				B471FC1D2565443C0097D504 /* FastOrderTests */,
 				B471FC282565443C0097D504 /* FastOrderUITests */,
+				B471FC462565528A0097D504 /* FastOrderClip */,
+				B471FC592565528D0097D504 /* FastOrderClipTests */,
+				B471FC642565528D0097D504 /* FastOrderClipUITests */,
+				B471FC86256553550097D504 /* FastOrderClip */,
 				B471FC0A2565443B0097D504 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +143,7 @@
 				B471FC092565443B0097D504 /* FastOrder.app */,
 				B471FC1A2565443C0097D504 /* FastOrderTests.xctest */,
 				B471FC252565443C0097D504 /* FastOrderUITests.xctest */,
+				B471FC85256553550097D504 /* FastOrderClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +187,66 @@
 			path = FastOrderUITests;
 			sourceTree = "<group>";
 		};
+		B471FC462565528A0097D504 /* FastOrderClip */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC472565528A0097D504 /* FastOrderClipApp.swift */,
+				B471FC492565528A0097D504 /* ContentView.swift */,
+				B471FC4B2565528C0097D504 /* Assets.xcassets */,
+				B471FC502565528C0097D504 /* Info.plist */,
+				B471FC512565528C0097D504 /* FastOrderClip.entitlements */,
+				B471FC4D2565528C0097D504 /* Preview Content */,
+			);
+			path = FastOrderClip;
+			sourceTree = "<group>";
+		};
+		B471FC4D2565528C0097D504 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC4E2565528C0097D504 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B471FC592565528D0097D504 /* FastOrderClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC5A2565528D0097D504 /* FastOrderClipTests.swift */,
+				B471FC5C2565528D0097D504 /* Info.plist */,
+			);
+			path = FastOrderClipTests;
+			sourceTree = "<group>";
+		};
+		B471FC642565528D0097D504 /* FastOrderClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC652565528D0097D504 /* FastOrderClipUITests.swift */,
+				B471FC672565528D0097D504 /* Info.plist */,
+			);
+			path = FastOrderClipUITests;
+			sourceTree = "<group>";
+		};
+		B471FC86256553550097D504 /* FastOrderClip */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC87256553550097D504 /* FastOrderClipApp.swift */,
+				B471FC89256553550097D504 /* ContentView.swift */,
+				B471FC8B256553580097D504 /* Assets.xcassets */,
+				B471FC90256553580097D504 /* Info.plist */,
+				B471FC91256553580097D504 /* FastOrderClip.entitlements */,
+				B471FC8D256553580097D504 /* Preview Content */,
+			);
+			path = FastOrderClip;
+			sourceTree = "<group>";
+		};
+		B471FC8D256553580097D504 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B471FC8E256553580097D504 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,10 +257,12 @@
 				B471FC052565443B0097D504 /* Sources */,
 				B471FC062565443B0097D504 /* Frameworks */,
 				B471FC072565443B0097D504 /* Resources */,
+				B471FC6E2565528D0097D504 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B471FC93256553580097D504 /* PBXTargetDependency */,
 			);
 			name = FastOrder;
 			productName = FastOrder;
@@ -188,6 +305,23 @@
 			productReference = B471FC252565443C0097D504 /* FastOrderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B471FC84256553550097D504 /* FastOrderClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B471FC95256553580097D504 /* Build configuration list for PBXNativeTarget "FastOrderClip" */;
+			buildPhases = (
+				B471FC81256553550097D504 /* Sources */,
+				B471FC82256553550097D504 /* Frameworks */,
+				B471FC83256553550097D504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastOrderClip;
+			productName = FastOrderClip;
+			productReference = B471FC85256553550097D504 /* FastOrderClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +342,9 @@
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = B471FC082565443B0097D504;
 					};
+					B471FC84256553550097D504 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = B471FC042565443B0097D504 /* Build configuration list for PBXProject "FastOrder" */;
@@ -226,6 +363,7 @@
 				B471FC082565443B0097D504 /* FastOrder */,
 				B471FC192565443C0097D504 /* FastOrderTests */,
 				B471FC242565443C0097D504 /* FastOrderUITests */,
+				B471FC84256553550097D504 /* FastOrderClip */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +389,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B471FC83256553550097D504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */,
+				B471FC8C256553580097D504 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +429,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B471FC81256553550097D504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471FC8A256553550097D504 /* ContentView.swift in Sources */,
+				B471FC88256553550097D504 /* FastOrderClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,6 +450,11 @@
 			isa = PBXTargetDependency;
 			target = B471FC082565443B0097D504 /* FastOrder */;
 			targetProxy = B471FC262565443C0097D504 /* PBXContainerItemProxy */;
+		};
+		B471FC93256553580097D504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B471FC84256553550097D504 /* FastOrderClip */;
+			targetProxy = B471FC92256553580097D504 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +578,7 @@
 		B471FC2F2565443C0097D504 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FastOrder/FastOrder.entitlements;
@@ -440,6 +602,7 @@
 		B471FC302565443C0097D504 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FastOrder/FastOrder.entitlements;
@@ -544,6 +707,52 @@
 			};
 			name = Release;
 		};
+		B471FC96256553580097D504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastOrderClip/FastOrderClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FastOrderClip/Preview Content\"";
+				DEVELOPMENT_TEAM = M7S8264BY5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FastOrderClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayway.fastorder.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B471FC97256553580097D504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastOrderClip/FastOrderClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FastOrderClip/Preview Content\"";
+				DEVELOPMENT_TEAM = M7S8264BY5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FastOrderClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayway.fastorder.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +788,15 @@
 			buildConfigurations = (
 				B471FC352565443C0097D504 /* Debug */,
 				B471FC362565443C0097D504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B471FC95256553580097D504 /* Build configuration list for PBXNativeTarget "FastOrderClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B471FC96256553580097D504 /* Debug */,
+				B471FC97256553580097D504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
