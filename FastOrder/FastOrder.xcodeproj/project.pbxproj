@@ -18,6 +18,7 @@
 		B471FC8C256553580097D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8B256553580097D504 /* Assets.xcassets */; };
 		B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8E256553580097D504 /* Preview Assets.xcassets */; };
 		B471FC94256553580097D504 /* FastOrderClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B471FC85256553550097D504 /* FastOrderClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1A440222569466300A3736E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC102565443B0097D504 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */,
+				F1A440222569466300A3736E /* Assets.xcassets in Resources */,
 				B471FC8C256553580097D504 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
