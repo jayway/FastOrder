@@ -19,40 +19,19 @@ struct OnboardingView: View {
                 .padding()
             
             TextField("Name", text: $name)
-                .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-                .background(Color.white)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(lineWidth: 2)
-                        .foregroundColor(.blue)
-                )
-                .shadow(color: Color.gray.opacity(0.5), radius: 3, x: 1, y: 2)
+                .bordered()
                 .padding()
             
             TextField("Phone Number", text: $phoneNumber)
-                .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-                .background(Color.white)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(lineWidth: 2)
-                        .foregroundColor(.blue)
-                )
-                .shadow(color: Color.gray.opacity(0.5), radius: 3, x: 1, y: 2)
+                .bordered()
                 .padding()
-
+            
             Button(action: self.reserve) {
                 Text("Reserve")
                     .font(.body)
                     .bold()
             }
-            .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-            .background(Color.white)
-            .overlay(
-                RoundedRectangle(cornerRadius: 8)
-                    .stroke(lineWidth: 2)
-                    .foregroundColor(.blue)
-            )
-            .shadow(color: Color.gray.opacity(0.5), radius: 3, x: 1, y: 2)
+            .bordered()
             .padding()
         }
     }
@@ -67,7 +46,6 @@ extension OnboardingView {
         
     }
 }
-
 
 
 
