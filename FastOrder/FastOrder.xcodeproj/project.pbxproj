@@ -78,6 +78,7 @@
 		484653DA256C052800ED860B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				B471FC0E2565443B0097D504 /* OnboardingView.swift */,
 				484653DB256C053100ED860B /* Components */,
 			);
 			path = Onboarding;
@@ -117,7 +118,6 @@
 				484653DA256C052800ED860B /* Onboarding */,
 				B471FC3D256544FE0097D504 /* FastOrder.entitlements */,
 				B471FC0C2565443B0097D504 /* FastOrderApp.swift */,
-				B471FC0E2565443B0097D504 /* OnboardingView.swift */,
 				B471FC102565443B0097D504 /* Assets.xcassets */,
 				B471FC152565443B0097D504 /* Info.plist */,
 				B471FC122565443B0097D504 /* Preview Content */,
