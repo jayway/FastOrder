@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B471FC0D2565443B0097D504 /* FastOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC0C2565443B0097D504 /* FastOrderApp.swift */; };
-		B471FC0F2565443B0097D504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC0E2565443B0097D504 /* ContentView.swift */; };
+		B471FC0F2565443B0097D504 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC0E2565443B0097D504 /* OnboardingView.swift */; };
 		B471FC112565443B0097D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC102565443B0097D504 /* Assets.xcassets */; };
 		B471FC142565443B0097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC132565443B0097D504 /* Preview Assets.xcassets */; };
 		B471FC1F2565443C0097D504 /* FastOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC1E2565443C0097D504 /* FastOrderTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		B471FC092565443B0097D504 /* FastOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471FC0C2565443B0097D504 /* FastOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderApp.swift; sourceTree = "<group>"; };
-		B471FC0E2565443B0097D504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B471FC0E2565443B0097D504 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B471FC102565443B0097D504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B471FC132565443B0097D504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B471FC152565443B0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			children = (
 				B471FC3D256544FE0097D504 /* FastOrder.entitlements */,
 				B471FC0C2565443B0097D504 /* FastOrderApp.swift */,
-				B471FC0E2565443B0097D504 /* ContentView.swift */,
+				B471FC0E2565443B0097D504 /* OnboardingView.swift */,
 				B471FC102565443B0097D504 /* Assets.xcassets */,
 				B471FC152565443B0097D504 /* Info.plist */,
 				B471FC122565443B0097D504 /* Preview Content */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B471FC0F2565443B0097D504 /* ContentView.swift in Sources */,
+				B471FC0F2565443B0097D504 /* OnboardingView.swift in Sources */,
 				B471FC0D2565443B0097D504 /* FastOrderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

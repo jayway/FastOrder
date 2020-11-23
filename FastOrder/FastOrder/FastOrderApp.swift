@@ -11,7 +11,7 @@ import SwiftUI
 struct FastOrderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
     }
 }
