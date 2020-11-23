@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		484653DD256C055A00ED860B /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484653DC256C055A00ED860B /* BorderedViewModifier.swift */; };
+		484653E5256C23B100ED860B /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484653E4256C23B100ED860B /* OnboardingViewModel.swift */; };
 		B471FC0D2565443B0097D504 /* FastOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC0C2565443B0097D504 /* FastOrderApp.swift */; };
 		B471FC0F2565443B0097D504 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC0E2565443B0097D504 /* OnboardingView.swift */; };
 		B471FC112565443B0097D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC102565443B0097D504 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		484653DC256C055A00ED860B /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
+		484653E4256C23B100ED860B /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		B471FC092565443B0097D504 /* FastOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471FC0C2565443B0097D504 /* FastOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderApp.swift; sourceTree = "<group>"; };
 		B471FC0E2565443B0097D504 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B471FC0E2565443B0097D504 /* OnboardingView.swift */,
+				484653E4256C23B100ED860B /* OnboardingViewModel.swift */,
 				484653DB256C053100ED860B /* Components */,
 			);
 			path = Onboarding;
@@ -283,6 +286,7 @@
 				B471FC0F2565443B0097D504 /* OnboardingView.swift in Sources */,
 				B471FC0D2565443B0097D504 /* FastOrderApp.swift in Sources */,
 				484653DD256C055A00ED860B /* BorderedViewModifier.swift in Sources */,
+				484653E5256C23B100ED860B /* OnboardingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
