@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    // TODO: name and phoneNumber will eventually be binded via the ViewModel
     @State var name: String = ""
     @State var phoneNumber: String = ""
     
