@@ -19,11 +19,10 @@
 		B471FC142565443B0097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC132565443B0097D504 /* Preview Assets.xcassets */; };
 		B471FC1F2565443C0097D504 /* FastOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC1E2565443C0097D504 /* FastOrderTests.swift */; };
 		B471FC2A2565443C0097D504 /* FastOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC292565443C0097D504 /* FastOrderUITests.swift */; };
-		B471FC88256553550097D504 /* FastOrderClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC87256553550097D504 /* FastOrderClipApp.swift */; };
-		B471FC8A256553550097D504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC89256553550097D504 /* ContentView.swift */; };
-		B471FC8C256553580097D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8B256553580097D504 /* Assets.xcassets */; };
-		B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC8E256553580097D504 /* Preview Assets.xcassets */; };
 		B471FC94256553580097D504 /* FastOrderClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B471FC85256553550097D504 /* FastOrderClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4A3E082256E74CC00B21F77 /* FastOrderClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC472565528A0097D504 /* FastOrderClipApp.swift */; };
+		B4A3E087256E74CF00B21F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471FC492565528A0097D504 /* ContentView.swift */; };
+		B4A3E08C256E74D100B21F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471FC4B2565528C0097D504 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,12 +90,6 @@
 		B471FC652565528D0097D504 /* FastOrderClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipUITests.swift; sourceTree = "<group>"; };
 		B471FC672565528D0097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B471FC85256553550097D504 /* FastOrderClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastOrderClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B471FC87256553550097D504 /* FastOrderClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastOrderClipApp.swift; sourceTree = "<group>"; };
-		B471FC89256553550097D504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B471FC8B256553580097D504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B471FC8E256553580097D504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B471FC90256553580097D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B471FC91256553580097D504 /* FastOrderClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastOrderClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +151,6 @@
 				B471FC462565528A0097D504 /* FastOrderClip */,
 				B471FC592565528D0097D504 /* FastOrderClipTests */,
 				B471FC642565528D0097D504 /* FastOrderClipUITests */,
-				B471FC86256553550097D504 /* FastOrderClip */,
 				B471FC0A2565443B0097D504 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,27 +242,6 @@
 				B471FC672565528D0097D504 /* Info.plist */,
 			);
 			path = FastOrderClipUITests;
-			sourceTree = "<group>";
-		};
-		B471FC86256553550097D504 /* FastOrderClip */ = {
-			isa = PBXGroup;
-			children = (
-				B471FC87256553550097D504 /* FastOrderClipApp.swift */,
-				B471FC89256553550097D504 /* ContentView.swift */,
-				B471FC8B256553580097D504 /* Assets.xcassets */,
-				B471FC90256553580097D504 /* Info.plist */,
-				B471FC91256553580097D504 /* FastOrderClip.entitlements */,
-				B471FC8D256553580097D504 /* Preview Content */,
-			);
-			path = FastOrderClip;
-			sourceTree = "<group>";
-		};
-		B471FC8D256553580097D504 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B471FC8E256553580097D504 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,9 +393,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B471FC8F256553580097D504 /* Preview Assets.xcassets in Resources */,
+				B4A3E08C256E74D100B21F77 /* Assets.xcassets in Resources */,
 				B431BA2F256E50390070E630 /* Assets.xcassets in Resources */,
-				B471FC8C256553580097D504 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,9 +432,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A3E082256E74CC00B21F77 /* FastOrderClipApp.swift in Sources */,
+				B4A3E087256E74CF00B21F77 /* ContentView.swift in Sources */,
 				B431BA20256E502F0070E630 /* OnboardingView.swift in Sources */,
-				B471FC8A256553550097D504 /* ContentView.swift in Sources */,
-				B471FC88256553550097D504 /* FastOrderClipApp.swift in Sources */,
 				B431BA2A256E50340070E630 /* BorderedViewModifier.swift in Sources */,
 				B431BA25256E50310070E630 /* OnboardingViewModel.swift in Sources */,
 			);
