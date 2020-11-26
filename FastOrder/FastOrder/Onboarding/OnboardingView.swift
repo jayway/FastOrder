@@ -32,7 +32,26 @@ struct OnboardingView: View {
             }
             .bordered()
             .padding()
+            // TODO: For now Reload User is primarily for investigation purposes
+            Button(action: self.viewModel.loadUser) {
+                Text("Reload User")
+                    .font(.body)
+                    .bold()
+            }
+            .bordered()
+            .padding()
+            // TODO: For now Clear User is primarily for investigation purposes
+            Button(action: self.viewModel.clearUser) {
+                Text("Clear User")
+                    .font(.body)
+                    .bold()
+            }
+            .bordered()
+            .padding()
         }
+        .onAppear(perform: {
+            self.viewModel.loadUser()
+        })
     }
 }
 
