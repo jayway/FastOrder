@@ -22,6 +22,7 @@ struct OnboardingView: View {
                 .padding()
             
             TextField("Phone Number", text: $viewModel.user.phoneNumber)
+                .keyboardType(.phonePad)
                 .bordered()
                 .padding()
             
