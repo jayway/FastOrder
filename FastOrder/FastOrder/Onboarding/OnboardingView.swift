@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    // TODO: name and phoneNumber will eventually be binded via the ViewModel
-    @State var name: String = ""
-    @State var phoneNumber: String = ""
+    @ObservedObject var viewModel: OnboardingViewModel
     
     var body: some View {
         VStack {
@@ -19,40 +17,48 @@ struct OnboardingView: View {
                 .aspectRatio(contentMode: .fit)
                 .padding()
             
-            TextField("Name", text: $name)
+            TextField("Name", text: $viewModel.user.name)
                 .bordered()
                 .padding()
             
-            TextField("Phone Number", text: $phoneNumber)
+            TextField("Phone Number", text: $viewModel.user.phoneNumber)
+                .keyboardType(.phonePad)
                 .bordered()
                 .padding()
             
-            Button(action: self.reserve) {
+            Button(action: self.viewModel.reserve) {
                 Text("Reserve")
                     .font(.body)
                     .bold()
             }
             .bordered()
             .padding()
+            // TODO: For now Reload User is primarily for investigation purposes
+            Button(action: self.viewModel.loadUser) {
+                Text("Reload User")
+                    .font(.body)
+                    .bold()
+            }
+            .bordered()
+            .padding()
+            // TODO: For now Clear User is primarily for investigation purposes
+            Button(action: self.viewModel.clearUser) {
+                Text("Clear User")
+                    .font(.body)
+                    .bold()
+            }
+            .bordered()
+            .padding()
         }
+        .onAppear(perform: {
+            self.viewModel.loadUser()
+        })
     }
 }
-
-
-// TODO: Event Handlers should likely be moved to ViewModel where they can be referred to as 'Intents' (Stanford CS193p 2020)
-// MARK: - Event Handlers
-
-extension OnboardingView {
-    func reserve() {
-        
-    }
-}
-
-
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView()
+        OnboardingView(viewModel: OnboardingViewModel())
     }
 }
