@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>appclips:fastorder-testing.appspot.com</string>
+		<string>appclips:https://www.fastorder-testing.appspot.com</string>
 	</array>
 </dict>
 </plist>
