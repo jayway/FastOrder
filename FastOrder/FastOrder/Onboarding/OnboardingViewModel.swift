@@ -50,10 +50,7 @@ class OnboardingViewModel: ObservableObject {
         self.fastOrderModel.clearUser()
         self.user = self.fastOrderModel.user
         
+        // TODO: Temporary (for demo purposes) as the reservation id & slug are currently not strictly modelled as part of UserProfile
         self.fastOrderReservation = FastOrderQueueReservationResponse(id: "", slug: "")
-    }
-    
-    
-    // MARK: - Access the model
-    
+    }    
 }
