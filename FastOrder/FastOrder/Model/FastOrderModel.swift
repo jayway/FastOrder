@@ -19,7 +19,6 @@ struct FastOrderModel {
     }
     
     func persistUser(user: UserProfile) {
-        print("Attempting Persistance of User Profile")
         UserDefaults.standard.set(try? PropertyListEncoder().encode(user), forKey: PersistanceKeys.userProfile.rawValue)
     }
     
