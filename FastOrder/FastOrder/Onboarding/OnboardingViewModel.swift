@@ -49,6 +49,8 @@ class OnboardingViewModel: ObservableObject {
     func clearUser() {
         self.fastOrderModel.clearUser()
         self.user = self.fastOrderModel.user
+        
+        self.fastOrderReservation = FastOrderQueueReservationResponse(id: "", slug: "")
     }
     
     
