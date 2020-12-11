@@ -41,6 +41,25 @@ struct OnboardingView: View {
             }
             .bordered()
             .padding()
+            
+            Text("FastOrder Reservation ID")
+                .font(.body)
+                .bold()
+            
+            Text(viewModel.fastOrderReservation.id)
+                .font(.body)
+                .bold()
+                .bordered()
+            
+            Text("FastOrder Reservatiion slug")
+                .font(.body)
+                .bold()
+            
+            Text(viewModel.fastOrderReservation.slug)
+                .font(.body)
+                .bold()
+                .bordered()
+            
             // TODO: For now Clear User is primarily for investigation purposes
             Button(action: self.viewModel.clearUser) {
                 Text("Clear User")
