@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class OnboardingViewModel: ObservableObject {
-    @Published private var fastOrderModel: FastOrderModel = FastOrderModel()
+    private var fastOrderModel: FastOrderModel = FastOrderModel()
 
     @Published var user = UserProfile()
     @Published var fastOrderReservation: FastOrderQueueReservationResponse = FastOrderQueueReservationResponse(id: "", slug: "")
